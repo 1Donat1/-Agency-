@@ -1,0 +1,58 @@
+@import 'var';
+.header{
+    padding-top:20px;
+    padding-bottom:90px;
+     background-color:#f6f2f2;
+
+
+li {
+    list-style: none;
+    border: 2px solid transparent;
+    transition: .3s border-color;}
+
+
+ li.active,
+  li:hover {
+    border-color:$first-color;
+    background:$first-color;
+}
+
+}
+
+nav{
+    background:$second-color;
+   
+
+ a{
+    color:$third-color;
+    text-decoration: none;
+    font-size:$font-md;
+}
+
+ ul{
+    text-align: center;
+}
+
+ ul li:not(.sub-menu li) {
+    padding:40px 40px 30px 40px;
+}
+ul li{
+    display: inline-block;
+
+}
+ ul li:last-child {
+    padding-right: 0;
+}
+
+
+}
+
+header  li {
+    list-style: none;
+    border: 2px solid transparent;
+    transition: .3s border-color;
+
+
+ 
+
+}

@@ -1,0 +1,58 @@
+.services {
+  margin-top: 110px;
+}
+
+.services-wrapper {
+  display: flex;
+  padding-bottom: 110px;
+  border: 2px solid #ececec;
+  border-style: none none solid none;
+}
+
+.services-left {
+  width: calc(100%/2);
+}
+.services-left h3 {
+  font-size: 40px;
+  width: 80%;
+  padding-bottom: 60px;
+}
+.services-left p {
+  width: 80%;
+  font-size: 16px;
+}
+.services-left button {
+  font-family: "Open Sans", sans-serif;
+  color: #ff3f40;
+  background: #ffff;
+  max-height: 30px;
+  margin-top: 40px;
+  border-radius: 3%;
+  line-height: 0;
+  padding: 25px 70px;
+  border: 2px solid;
+  border-color: #ff3f40;
+  font-size: 16px;
+}
+
+.services-right {
+  width: calc(100%/2);
+  display: flex;
+  flex-wrap: wrap;
+}
+.services-right .info-item {
+  width: calc(100%/2);
+}
+.services-right h3 {
+  padding-bottom: 30px;
+}
+.services-right p {
+  padding-bottom: 50px;
+  width: 70%;
+}
+.services-right .img {
+  width: 30px;
+  height: 25px;
+  padding-bottom: 20px;
+}
+/*# sourceMappingURL=services.css.map */

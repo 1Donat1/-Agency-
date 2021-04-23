@@ -1,0 +1,70 @@
+@import 'var';
+
+
+
+.cookies{
+	margin-top:110px;
+	background-color:$background-color;
+	padding-bottom:110px;
+
+.cookies-wrapper{
+	text-align:center;
+	background-color:$background-color;
+	color:$third-color;
+
+}
+h4{
+padding-top:110px;
+	font-size:30px;
+	padding-bottom:40px;
+}
+p{
+	font-size:$font-md;
+	padding-bottom:60px;
+}
+ form {
+  display: flex;
+  width: 100%;
+
+ label {
+  width: 100%;
+  
+input{
+	width: 70%;
+    padding: 27px 0;
+    
+}
+
+
+}
+.form-label{
+      width: 70%;
+
+}
+.form-button{
+  width:20%;
+}
+ button {
+  width: 100%;
+  color: $third-color;
+  background: $first-color;
+  border-radius: 3%;
+  font-size: 20px;
+  padding: 28px 0;
+  border:none;
+  margin-top:20px;
+  font-family: 'Open Sans', sans-serif;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+}

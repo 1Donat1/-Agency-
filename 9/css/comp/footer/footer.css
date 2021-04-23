@@ -1,0 +1,29 @@
+footer {
+  margin-top: 100px;
+  background-color: #313030;
+  padding-bottom: 30px;
+}
+
+.footer-wrapper {
+  display: flex;
+  width: 100%;
+}
+
+.footer-left {
+  width: 80%;
+  padding-top: 50px;
+}
+.footer-left a {
+  text-decoration: none;
+  color: #ffff;
+}
+
+.footer-right {
+  display: flex;
+  padding-top: 40px;
+  width: 20%;
+}
+.footer-right a {
+  padding-right: 10px;
+}
+/*# sourceMappingURL=footer.css.map */

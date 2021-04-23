@@ -1,0 +1,96 @@
+.meet {
+  margin-top: 140px;
+}
+
+.meet-wrapper {
+  display: flex;
+  width: 100%;
+}
+
+.meet-intro {
+  margin-bottom: 50px;
+  padding-right: 75px;
+}
+.meet-intro h4 {
+  padding-bottom: 20px;
+  font-size: 40px;
+}
+.meet-intro p {
+  font-size: 16px;
+  color: #4c4c4c;
+}
+
+.meet-intro-img {
+  display: flex;
+  width: 25%;
+  background-image: url(file:///C:/Users/User/Desktop/9/img/meet/1579082393_1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.meet-info {
+  padding-left: 75px;
+  width: 75%;
+}
+.meet-info a:hover {
+  transition: 3s #ff3f40;
+  color: #ff3f40;
+}
+.meet-info ul {
+  padding-top: 50px;
+}
+.meet-info li {
+  display: inline-block;
+}
+.meet-info a {
+  font-size: 20px;
+  padding-right: 40px;
+  color: #8888;
+  text-decoration: none;
+}
+.meet-info h4 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.meet-info p {
+  color: #4c4c4c;
+  font-size: 16px;
+}
+
+.meet-info-img {
+  padding-top: 60px;
+  display: flex;
+}
+.meet-info-img .meet-info-img-4 img, .meet-info-img .meet-info-img-3 img, .meet-info-img .meet-info-img-2 img, .meet-info-img .meet-info-img-1 img {
+  width: 100%;
+  height: 175px;
+}
+.meet-info-img .meet-info-img-1 {
+  width: calc(75%/4);
+  padding-right: 10px;
+}
+.meet-info-img .meet-info-img-2 {
+  width: calc(75%/4);
+  padding-right: 10px;
+}
+.meet-info-img .meet-info-img-3 {
+  width: calc(75%/4);
+  padding-right: 10px;
+}
+.meet-info-img .meet-info-img-4 {
+  width: calc(75%/4);
+}
+.meet-info-img .meet-href {
+  text-align: center;
+  background-color: #7a786e;
+  margin-top: -35px;
+  position: absolute;
+  height: 25px;
+  padding-top: 8px;
+  transition: 3s #ff3f40;
+}
+.meet-info-img .meet-href a {
+  color: #ffff;
+  padding: 34px;
+}
+/*# sourceMappingURL=meet.css.map */

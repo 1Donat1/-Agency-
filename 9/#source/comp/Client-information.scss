@@ -1,0 +1,101 @@
+@import 'var';
+
+.client-information{
+	margin-top:100px;
+}
+
+.client-information-intro{
+	h4{
+	font-size:$font-lg;
+	padding-bottom:40px;
+	}
+	p{
+	font-size:20px;
+	}
+	hr{
+margin-top:60px;
+margin-bottom:70px;
+	}
+}
+.client-wrapper{
+	width:100%;
+	display:flex;
+.client-left{
+	width:50%;
+}
+}
+.client-name{
+display:flex;
+padding-bottom:20px;
+width:100%;
+	padding-right:20px;}
+	.name{
+	width:100%;
+	padding-right:20px;
+	}
+	.mail{
+	width:100%;
+	}
+.wishes{
+display:inline;
+	width:calc(100%/2);
+	width: 100%;
+    resize: none;
+    display: inline;
+    }
+    textarea{
+        width: 100%;
+  height:250px;
+    resize: none;
+    padding: 0 0 0 0;
+    }
+
+    input{
+
+    width:100%;
+    padding:25px 0;
+    font-size:20px;
+    margin-top:20px;
+    
+
+    }
+ .Wishes{
+ input{
+ background-color:$first-color;
+  border:none;
+  color:$third-color;
+  font-family: 'Open Sans', sans-serif;
+ }
+ }
+ .client-right{
+ width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    line-height:40px;
+ .client-right-wrapper{
+ width: 75%;
+    background-color: $background-color;
+    text-align: center;
+    color: $third-color;
+    padding-top: 140px;
+ }
+ a{
+ text-decoration:none;
+ color:$third-color;
+ font-size:$font-md;
+ }
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+

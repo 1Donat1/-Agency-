@@ -1,0 +1,46 @@
+.intro {
+  background-color: #f6f2f2;
+  padding-bottom: 125px;
+}
+
+.intro-wrapper {
+  background-color: #f6f2f2;
+  display: flex;
+}
+
+.intro-left {
+  width: calc(100%/2);
+  padding-right: 120px;
+}
+.intro-left h1 {
+  font-size: 60px;
+  padding-bottom: 30px;
+}
+.intro-left p {
+  width: 80%;
+  font-size: 16px;
+  color: #787676;
+}
+.intro-left button {
+  font-family: "Open Sans", sans-serif;
+  border: none;
+  color: white;
+  font-size: 16px;
+  background: #ff3f40;
+  max-width: 230px;
+  max-height: 30px;
+  margin-top: 40px;
+  border-radius: 3%;
+  display: flex;
+  align-items: center;
+  line-height: 0;
+  padding: 25px 70px;
+}
+
+.intro-right {
+  width: calc(100%/2);
+}
+.intro-right iframe {
+  box-shadow: 9px -9px 18px 14px #cbc7c7;
+}
+/*# sourceMappingURL=intro.css.map */
